@@ -245,5 +245,10 @@ void CacheDataCleanInvalidateBuff(unsigned int startAddr, unsigned int numBytes)
     CP15DCacheCleanFlushBuff(startAddr, numBytes);
 }
 
+
+void CacheDataCleanInvalidateBuff_1(unsigned int startAddr, unsigned int numBytes)
+{
+    CP15DCacheCleanFlushBuff(startAddr, numBytes);
+}
 /***************************** End Of File ***********************************/
 
